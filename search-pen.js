@@ -19,8 +19,7 @@
     {title:'Brand Resources', type:'Articles', url:'/media-centre-resources', meta:'Article'},
     {title:'Press Release', type:'News', url:'/media-centre-press-release', meta:'News'},
     {title:'Media Centre News', type:'News', url:'/media-centre-news', meta:'News'}
-  ];
-
+  ];sau k
   var bar, input, filterTrigger, filterText, menu, panel, countEl, listEl, tagsEl, moreEl;
   var selected = [], dataCache = null, dataCacheTime = 0, debTimer = null;
   var lastItems = [], lastQ = '', expanded = false;
