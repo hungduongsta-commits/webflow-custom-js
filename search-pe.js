@@ -1,4 +1,3 @@
-<script>
 /* ===== Petronas Gallery Search — logic (thêm 25/6) | khớp Figma "Search" ===== */
 (function(){
   "use strict";
@@ -293,4 +292,3 @@
     document.addEventListener('keydown', function(e){ if(e.key==='Escape'){ closeMenu(); closePanel(); closePage(); } });
   });
 })();
-</script>
