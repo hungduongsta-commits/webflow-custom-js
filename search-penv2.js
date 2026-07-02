@@ -207,7 +207,7 @@
     return '<div class="pgs-prow" data-idx="'+idx+'">'+
       '<a class="pgs-prow-link" href="'+esc(it.url||'#')+'"><div class="pgs-prow-title">'+esc(it.title)+'</div>'+thumb+
       '<div class="pgs-prow-date">'+esc(dt||it.type||'')+'</div></a>'+
-      '<button type="button" class="pgs-prow-exp" aria-label="Xem nhanh"><svg class="pgs-prow-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 6 15 12 9 18"/></svg></button></div>';
+      '<button type="button" class="pgs-prow-exp" aria-label="View"><svg class="pgs-prow-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 6 15 12 9 18"/></svg></button></div>';
   }
   function cardHTML(it){
     var src=it.image||it.img;
