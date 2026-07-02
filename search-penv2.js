@@ -196,7 +196,7 @@
   }
   function closePage(){ if(pageEl){ pageEl.classList.remove('is-open'); document.body.style.overflow=''; } closeMenu(); }
   function gotoResults(q){
-    var u = 'search-reults?q=' + encodeURIComponent(q||'');
+    var u = '/search-reults?q=' + encodeURIComponent(q||'');
     if(selected.length) u += '&type=' + encodeURIComponent(selected.join(','));
     window.location.href = u;
   }
